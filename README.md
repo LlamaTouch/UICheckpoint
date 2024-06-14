@@ -1,6 +1,6 @@
 # UICheckpoint
 
-UICheckpoint is part of the [llamatouch](https://github.com/LlamaTouch/LlamaTouch) project and serves as a tool for task-standard process annotation of UI checkpoints. This tool is based on modifications made to the [Weditor](https://github.com/alibaba/web-editor), and we acknowledge and appreciate their contributions.
+UICheckpoint is part of the [Llamatouch](https://github.com/LlamaTouch) project and serves as a tool for task-standard process annotation of UI checkpoints. This tool is based on modifications made to the [Weditor](https://github.com/alibaba/web-editor), and we acknowledge and appreciate their contributions.
 
 ## Installation
 
@@ -42,12 +42,13 @@ Navigate to the project directory and start the editor:
 
 ## How to Annotate
 
-The UI interface appears as shown below (insert your image link here):
+The UI interface appears as shown below :
 ![UI Interface](./UICheckpoint.png)
 
 ### Annotation Steps:
 
-1. Enter the trace address you want to annotate and click 'Connect'.
+1. **Enter the Trace Address**: This refers to the absolute path of the standard process folder(you can get standard process folder through this [tool](https://github.com/MATestbed/ws-scrcpy)) you wish to annotate. Enter this path in the designated input field and click 'Connect'.
+   
 2. The middle section contains supported annotation keywords. Their meanings are presented in the table below:
 
    | Keyword       | Match Type      | Description                                                  |
@@ -66,4 +67,3 @@ The UI interface appears as shown below (insert your image link here):
 
 ### Annotation Results:
 The corresponding `.ess` file will be added to the original directory, which contains all the annotation information for this interface.
-
